@@ -1,0 +1,14 @@
+#spinner{
+    border-top: 5px solid blue;
+    border-right: 5px solid green;
+    border-bottom: 5px solid red;
+    border-left: 5px solid rgb(54, 8, 15);/* Blue */
+    border-radius: 95%;
+    width: 10px;
+    height: 10px;
+    animation: spin 0.5s linear infinite;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
