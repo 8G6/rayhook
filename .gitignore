@@ -1,3 +1,5 @@
 *.json
 *.txt
-db
+database
+node_modules
+./ngrok.exe
